@@ -1,0 +1,137 @@
+:root {
+     --colorGray: #293845;
+     --colorReset: #3b4854;
+     --colorSecondary: #606b74;
+     --colorBorder: #c5ced6;
+     --colorWhite: #fff;
+     --bgButton: #6558f5;
+     --bgHover: #4033d1;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border: none;
+}
+
+html {
+     font-family: Arial;
+     margin: 0 3rem;
+}
+
+.container {
+     max-width: fit-content;
+     margin: 3rem auto;
+     padding: 2rem 2rem;
+     border: 3px dashed var(--colorSecondary);
+     border-radius: 5px;
+}
+
+.container .title > h1{
+     margin-bottom: 1rem;
+     font-size: 2.1rem;
+     font-weight: bold;
+     text-align: center;
+     line-height: 1.4;
+     color: var(--colorGray);
+}
+
+.container .title > p {
+     margin-bottom: 2.5rem;
+     color: var(--colorSecondary);
+     text-align: center;
+     font-size: 1.1rem;
+}
+
+.container .input-form label {
+     display: block;
+     margin-top: 1rem;
+     margin-bottom: 0.6rem;
+     font-size: 0.9rem;
+     color: var(--colorGray);
+}
+
+.container .input-form input[type="number"] {
+     width: 100%;
+     height: 2rem;
+     padding: 0.6rem 0.6rem;
+     outline: none;
+     transition: 0.3s ease-out;
+     border: 2px solid var(--colorSecondary);
+     border-radius: 5px;
+}
+
+.container .input-form input[type="number"]:focus {
+     border: 2px solid var(--colorBorder);
+}
+
+.container .input-form .btn-bmi {
+     display: block;
+     margin-top: 1rem;
+     width: 100%;
+     height: 2rem;
+     background: var(--bgButton);
+     color: var(--colorWhite);
+     cursor: pointer;
+     border-radius: 5px;
+     transition: 0.3s ease-out;
+}
+
+.container .input-form .btn-reset {
+     display: block;
+     margin-top: 1rem;
+     width: 100%;
+     height: 2rem;
+     background: var(--colorReset);
+     color: var(--colorWhite);
+     cursor: pointer;
+     border-radius: 5px;
+     transition: 0.3s ease-out;
+}
+
+.container .input-form .btn-bmi:hover {
+     background: var(--bgHover);
+}
+
+.container .input-form .btn-reset:hover {
+     background: var(--colorGray) ;
+}
+
+.container .input-form #show {
+     color: var(--colorGray);
+     margin-top: 1rem;
+}
+
+#show {
+     background: var(--bgButton);
+     color: var(--colorWhite) !important;
+     padding: 1.5rem;
+     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+     .container {
+          max-width: 80%;
+     }
+
+     .container .title > p {
+          font-size: 1rem;
+          line-height: 1;
+     }
+}
+
+@media (max-width: 450px) {
+     .container {
+          max-width: 100%;
+     }
+
+     .container .title > h1 {
+          font-size: 1.8rem;
+     }
+
+     .container .title > p {
+          font-size: 1rem;
+          line-height: 1.5;
+     }
+}
