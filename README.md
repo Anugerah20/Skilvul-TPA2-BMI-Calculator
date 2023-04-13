@@ -5,4 +5,4 @@ This website is created using technology
 - CSS
 - Javascript
 
-Click here for a demo of the app [BMI] (https://tpa2-nabil-bmi-calculator.netlify.app/)
+Click here for a demo of the app [BMI Calculator](https://tpa2-nabil-bmi-calculator.netlify.app/)
