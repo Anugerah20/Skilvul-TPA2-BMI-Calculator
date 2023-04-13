@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TPA 2 - BMI</title>
+
+     <!-- File CSS -->
+     <link rel="stylesheet" href="assets/css/style.css">
+
+     <!-- Toastify CSS -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+     <div class="container">
+          <header class="title">
+               <h1>Check Your BMI</h1>
+               <p>Enter your weight and height below to check your <span>bmi</span> results</p>
+          </header>
+
+          <section class="input-form">
+               <label for="weight">Put your weight in here (KG)</label>
+               <input id="weight" type="number" placeholder="exampel: 60" autocomplete="off">
+
+               <label for="height">And your height in here (CM)</label>
+               <input id="height" type="number" placeholder="exampel: 167" autocomplete="off">
+
+               <button class="btn-bmi" onclick="checkYourBMI()" type="submit">Calculate BMI</button>
+
+               <button class="btn-reset" onclick="resetBMI()" type="submit">Reset BMI</button>
+
+               <p id="show"></p>
+          </section>
+     </div>
+     <!-- File Javascript -->
+     <script src="assets/js/script.js"></script>
+
+     <!-- Toastify JS -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>
