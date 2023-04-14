@@ -36,7 +36,10 @@ function checkYourBMI() {
                categories = 'Obesity ';
           }
 
-          document.getElementById('show').innerHTML = "Your BMI is <b>" + bmi + "</b> which means you are <b>" + categories + "</b>";
+          let showText = document.getElementById('show').innerHTML = `
+          <p style='color: #FFFFFF; background: #6558f5; padding: 1.5rem;border-radius: 8px'>
+          Your BMI is <b>${bmi}</b> which means you are <b>${categories}</b>
+          </p>`;
      }
 }
 
