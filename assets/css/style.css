@@ -103,12 +103,12 @@ html {
      margin-top: 1rem;
 }
 
-#show {
+/* .show {
      background: var(--bgButton);
      color: var(--colorWhite) !important;
      padding: 1.5rem;
      border-radius: 8px;
-}
+} */
 
 @media (max-width: 768px) {
      .container {
