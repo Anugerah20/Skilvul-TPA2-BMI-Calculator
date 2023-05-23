@@ -27,3 +27,8 @@ BMI Calculator adalah sebuah aplikasi berbasis website yang dibuat untuk menguku
 **Jika klik reset maka akan hilang hasilnya**
 
 <img width="397" alt="image" src="https://github.com/Anugerah20/Skilvul-TPA2-BMI-Calculator/assets/73144931/980502f9-a0b7-4ed9-b971-6bd881a33086">
+
+
+## Authors
+
+- [@anugerah20](https://www.github.com/anugerah20)
