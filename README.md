@@ -1,8 +1,15 @@
-# TPA 2 BMI Calculator
 
-This website is created using technology 
-- HTML5
-- CSS
-- Javascript
+## 🚀 About BMI Calculator
+BMI Calculator adalah sebuah aplikasi berbasis website yang dibuat untuk mengukur berat badan.
 
-Click here for a demo of the app [BMI Calculator](https://tpa2-nabil-bmi-calculator.netlify.app/)
+
+## 📍 Tech Stack
+
+**Front End:** HTML, CSS, Vanilla Javascript
+
+
+## Screenshots
+**Tampilan Website BMI**
+
+![App Screenshot](![Uploading image.png…]()
+
