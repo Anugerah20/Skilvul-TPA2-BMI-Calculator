@@ -11,5 +11,5 @@ BMI Calculator adalah sebuah aplikasi berbasis website yang dibuat untuk menguku
 ## Screenshots
 **Tampilan Website BMI**
 
-![App Screenshot](![Uploading image.png…]()
+<img width="437" alt="image" src="https://github.com/Anugerah20/Skilvul-TPA2-BMI-Calculator/assets/73144931/82f07f70-cd37-4527-b05e-4ae8aaded5ac">
 
